@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  height: 2000px;
+  color: #757575;
+  font-size: 18px;
+  line-height: 32px;
+  background-image: url("../img/handTR2.png"), url("../img/face-down.png"), url("../img/greek-trans.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 100% 10%, -10% 290%, 100% 800%;
+  background-size: 30%, 20%, auto;
+}
+
+/*START prompt-box styling*/
+.boxes {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.first-odd-box {
+  height: 100px;
+  width: 100px;
+  opacity: 0.0;
+}
+
+.prompt-box {
+  height: 100px;
+  width: 200px;
+  margin-bottom: 100px;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  opacity: 0.0;
+  padding: 50px 0;
+}
+
+.prompt-info {
+  width: 100%;
+  font-weight: normal;
+}
+
+.prompt-link, .prompt-link2 {
+  color: #e2665a;
+  font-weight: bold;
+}
+
+.prompt-link:hover, .prompt-link2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*END prompt-box styling*/
+
+p {
+  padding-bottom: 10px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Amatic SC', cursive;
+  color: #e2665a;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 250px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#socialbuttons {
+  text-align: left;
+  padding-top: 20px;
+}
+
+#socialbuttons a:hover {
+  text-decoration: none;
+}
+
+
+img.social {
+  width: 12%;
+}
+
+a {
+  color: #e2665a;
+}
+
+#penimg {
+  position: fixed;
+  left: 0px;
+  top: 10px;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  z-index: 3;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.hover-color:hover {
+  color: #e2665a;
+}
+
+#instagram h3 {
+  color: #000000;
+  padding-top: 60px;
+}
+
+#rules {
+  padding: 25px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+#prompts {
+  width: 70%;
+  padding: 25px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  margin: auto;
+  clear:both;
+  display: none;
+}
+
+#prompts h3 {
+  text-align: center;
+  font-size: 85px;
+}
+
+/*START scrolling boxes*/
+.first-odd-box {
+  height: 100px;
+  width: 100px;
+  opacity: 0.0;
+}
+.prompt-box {
+  height: 100px;
+  width: 200px;
+  margin-bottom: 100px;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  opacity: 0.0;
+  padding: 50px 0;
+}
+
+.prompt-info {
+  width: 100%;
+  font-weight: normal;
+}
+
+.prompt-link, .prompt-link2 {
+   color: #e2665a;
+   font-weight: bold;
+ }
+
+.prompt-link:hover, .prompt-link2:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*END scrolling boxes*/
+
+#toc {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Amatic SC', cursive;
+  margin: auto;
+}
+
+#toc ul li {
+  font-size: 20px;
+  display: inline;
+}
+
+#pod {
+  padding: 50px;
+  text-align: center;
+}
+
+#pod h2 {
+  color: #000;
+}
+
+img.stroke {
+  max-width: 400px;
+  padding-top: 0px;
+  display: none;
+}
+
+#about, #tips {
+  float: right;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+#tips {
+  width: 53%;
+}
+
+#tips ul li {
+  list-style-image: url("../img/bullet-3.png");
+  padding-bottom: 15px;
+  margin-left: 30px;
+}
+
+#inktoberpic {
+  width: 150px;
+}
+
+#instagram {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+#prompts ol li {
+  list-style-type: decimal;
+  margin-left: 80px;
+}
+
+#rules ol li {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+
+.display-prompt {
+  color: #e2665a;
+  font-size: 120px;
+}
+
+h2.display-prompt  {
+  padding-bottom: 0px;
+  line-height: 50px;
+}
+
+.display-prompt:hover {
+  display: block;
+}
+
+ul.section {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+}
+
+ul.section a {
+  color: #757575;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+}
+
+/*IMAGES*/
+#img1 {
+width: 400px;
+margin-top: 150px;
+}
+
+#img2 {
+height: 400px;
+}
+
+#img3 {
+width: 400px;
+}
+
+.wrapper p {
+position:relative;
+visibility:hidden;
+}
+
+.img-text1, .img-text2, .img-text3 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #e2665a;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.img-text2 {
+  padding-left: 30px;
+}
+
+.img-text3 {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+/*END Images*/
+
+/*Footer Content*/
+.our-name {
+  text-align: left;
+  font-weight: bold;
+  color: #e2665a;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.blurb {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer-spacing {
+  margin-left: 300px;
+  color: #f2f2f2;
+}
+
+#footerimg {
+  max-height: 400px;
+  min-height: 400px;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+
+footer {
+  position:absolute;
+  background-color: black;
+  padding: 25px;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+h4.aboutHeadline {
+  text-align: right;
+  padding-right: 30px;
+  font-size: 80px;
+  z-index: 1;
+}
+/*END Footer*/
+
+/*START background splatter*/
+#splat1 {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  height: 10%;
+  z-index: -1;
+  display: none;
+}
+
+#splat2 {
+  position: absolute;
+  top: 1200px;
+  height: 15%;
+  z-index: -1;
+  display: none;
+}
+
+
+.splat2-reg-window {
+  left: 1400px;
+}
+
+.splat2-big-window {
+  left: 1600px;
+}
+
+.splat2-xbig-window {
+  left: 2000px;
+}
+
+#splat3 {
+  position: absolute;
+  top: 2000px;
+  left: 100px;
+  height: 20%;
+  z-index: -1;
+  display: none;
+}
+
+#splat4 {
+  position: absolute;
+  top: 3000px;
+  height: 25%;
+  z-index: -1;
+  display: none;
+}
+
+.splat4-reg-window {
+  left: 1400px;
+}
+
+.splat4-big-window {
+  left: 1600px;
+}
+
+#sticky-button {
+    position: sticky;
+    bottom: 30px;
+    margin-left: 90%;
+    display: none;
+}
+
+#sticky-button a {
+  color: #000;
+}
+
+#sticky-button a:hover {
+  color: #e2665a;
+
+}
